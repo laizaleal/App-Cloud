@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
   <meta name="generator" content="Hugo 0.122.0">
-  <title>Log-In</title>
+  <title>Cadastro</title>
 
   <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/sign-in/">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
@@ -107,7 +107,7 @@
               <a class="nav-link active" aria-current="page" href="home.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="criar-conta.html">Criar conta</a>
+              <a class="nav-link" href="index.html">Entrar</a>
             </li>
           </ul>
         </div>
@@ -117,7 +117,15 @@
 
   <main class="form-signin w-100 m-auto mt-5 pt-5">
     <form>
-      <h1 class="h3 mb-3 fw-normal">Log In</h1>
+      <h1 class="h3 mb-3 fw-normal">Cadastro</h1>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="floatingInput" name="nome_usuario" placeholder="nome" required>
+        <label for="floatingInput">Data de Nascimento</label>
+      </div>
+      <div class="form-floating">
+        <input type="date" class="form-control" id="floatingInput" name="nascimento_usuario" >
+        <label for="floatingInput">Data de Nascimento</label>
+      </div>
       <div class="form-floating">
         <input type="email" class="form-control" id="floatingInput" name="email_usuario" placeholder="name@example.com" required>
         <label for="floatingInput">Email</label>
@@ -132,7 +140,7 @@
           Lembrar de mim
         </label>
       </div>
-      <button class="btn btn-primary w-100 py-2" type="submit">Entrar</button>
+      <button class="btn btn-primary w-100 py-2" type="submit">Criar conta</button>
     </form>
   </main>
   <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
